@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+section h1 {
+    justify-content: space-around;
+}
+
+body > header {
+    background-color: #3b414d;
+    padding: 16px 0;
+    color: #f5f6f4;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: #f5f6f4;
+    margin-left: 16px;
+    text-decoration: none;
+    border-style: rigde;
+    padding: 5px;
+}
+
+header li a:hover{
+    font-weight: bold;
+    background-color: black;
+    text-decoration: double;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.articles article img {
+    /*height: 220px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: #76f391;
+}
+
+#sports .articles article a {
+    background-color: #2cc94e;
+}
+
+#economy {
+    background-color: #fae676;
+}
+
+#economy .articles article a {
+    background-color: #fca036;
+}
+
+#recipes {
+    background-color: #fae;
+}
+
+#recipes .articles article a {
+    background-color: #8484;
+}
+
+#technology {
+    background-color: #E57373;
+}
+
+#technology .articles article a {
+    background-color: black;
+}
